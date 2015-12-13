@@ -39,7 +39,7 @@ if(!exists('hpc')) {
     rm(endLine)
 }
 
-par(col = 'black', pty = 's', mar = c(4, 2, 2, 0), mfrow = c(1,1))
+par(col = 'black', pty = 's', mar = c(4, 4, 2, 2), mfrow = c(1,1))
 
 with(hpc, plot(
     x = Date_time,
