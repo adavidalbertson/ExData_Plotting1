@@ -44,7 +44,7 @@ par(col = 'red', pty = 's', mar = c(4, 2, 2, 0), mfrow = c(1,1))
 with(hpc, hist(
     Global_active_power,
     main = 'Histogram of Global Active Power',
-    xlab = 'Global Active Power',
+    xlab = 'Global Active Power (kilowatts)',
     col = 'red'
     ))
 

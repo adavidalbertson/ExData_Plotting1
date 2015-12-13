@@ -45,7 +45,7 @@ with(hpc, plot(
     x = Date_time,
     y = Global_active_power,
     type = 'l',
-    ylab = 'Global active power',
+    ylab = 'Global active power (kW)',
     xlab = ''
 ))
 
@@ -60,7 +60,7 @@ with(hpc, plot(
     x = Date_time,
     y = Sub_metering_1,
     type = 'l',
-    ylab = 'Energy sub metering',
+    ylab = 'Energy sub metering (Wh)',
     xlab = ''
 ))
 
@@ -89,7 +89,7 @@ with(hpc, plot(
     x = Date_time,
     y = Global_reactive_power,
     type = 'l',
-    ylab = 'Global reactive power',
+    ylab = 'Global reactive power (kW)',
     xlab = ''
 ))
 

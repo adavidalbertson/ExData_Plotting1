@@ -45,7 +45,7 @@ with(hpc, plot(
     x = Date_time,
     y = Sub_metering_1,
     type = 'l',
-    ylab = 'Energy sub metering',
+    ylab = 'Energy sub metering (watt-hours)',
     xlab = ''
 ))
 

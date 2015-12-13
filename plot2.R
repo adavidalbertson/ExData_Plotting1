@@ -45,7 +45,7 @@ with(hpc, plot(
     x = Date_time,
     y = Global_active_power,
     type = 'l',
-    ylab = 'Global active power',
+    ylab = 'Global active power (kilowatts)',
     xlab = ''
 ))
 
